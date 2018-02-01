@@ -9,3 +9,5 @@ spring boot 技术点代码详解
 - 5. spring boot 插件集成
 - 6. spring boot 集成mybatis
 - 7. spring boot 集成zookeeper
+- 8. spring boot 集成rabbitmq
+- 9. spring boot 集成kafka

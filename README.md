@@ -11,3 +11,4 @@ spring boot 技术点代码详解
 - 7. spring boot 集成zookeeper
 - 8. spring boot 集成rabbitmq
 - 9. spring boot 集成kafka
+- 9. spring boot 集成权限框架

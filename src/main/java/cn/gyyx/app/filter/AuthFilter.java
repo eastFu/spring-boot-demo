@@ -31,8 +31,9 @@ public class AuthFilter implements Filter{
         LOGGER.info("request uri : "+httpRequest.getRequestURI());
 
         String authHeader = httpRequest.getHeader("Authorization");
-
         LOGGER.info("authHeader : "+authHeader);
+
+        
         filterChain.doFilter(httpRequest,httpResponse);
     }
 

@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.gyyx.framework</groupId>
-	<artifactId>spring_boot_core</artifactId>
+	<artifactId>spring-boot-demo</artifactId>
 	<version>0.0.2</version>
 	<packaging>jar</packaging>
 
-	<name>spring_boot_core</name>
+	<name>spring-boot-demo</name>
 	<description>gy-games srping boot framework</description>
 
 	<parent>

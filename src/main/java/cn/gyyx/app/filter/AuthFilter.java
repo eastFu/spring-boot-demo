@@ -29,6 +29,10 @@ public class AuthFilter implements Filter{
         HttpServletRequest httpRequest = (HttpServletRequest) servletRequest;
         HttpServletResponse httpResponse = (HttpServletResponse) servletResponse;
         LOGGER.info("request uri : "+httpRequest.getRequestURI());
+
+        String authHeader = httpRequest.getHeader("Authorization");
+
+        LOGGER.info("authHeader : "+authHeader);
         filterChain.doFilter(httpRequest,httpResponse);
     }
 

@@ -33,7 +33,7 @@ public class AuthFilter implements Filter{
         String authHeader = httpRequest.getHeader("Authorization");
         LOGGER.info("authHeader : "+authHeader);
 
-        
+
         filterChain.doFilter(httpRequest,httpResponse);
     }
 
